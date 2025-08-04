@@ -6,6 +6,7 @@ import VideoPost from "../components/VideoPost";
 import { useUser } from "../context/userContext";
 
 const Explore = () => {
+  
   const [posts, setPosts] = useState([]);
   const { url } = useUser();
 
